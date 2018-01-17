@@ -2,7 +2,7 @@
 
 Example of websocket application that streams the messages on a particular delay.
 
-In this code, every tweet will be broadcast on 10 seconds delay.
+In this code, every tweet will be broadcasted on 10 seconds delay.
 
 Main library that I use in this project
 - compression

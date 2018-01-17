@@ -7,8 +7,4 @@ export const socketConnectionHandler = (socket, io, delayInSeconds) => {
   })
 }
 
-export const tweet = (msg, {lat, lon}, io) => {
-  const location = `${lat}:${lon}`
-
-  io.emit('tweet', `${location}  ${msg}`)
-}
+export const tweet = (msg, {lat, lon}, io) => io.emit('tweet', `${lat}:${lon}  ${msg}`)
