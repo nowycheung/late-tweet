@@ -1,0 +1,20 @@
+# Generated directories
+reports
+docs
+dist
+.nyc_output
+coverage
+
+# Generated files
+lcov.info
+
+# Node
+node_modules
+*.log*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
